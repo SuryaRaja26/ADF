@@ -1,0 +1,11 @@
+Integration runtime: is the compute infrastructure. An integration runtime provides the bridge between activities and linked services. 
+Three types:
+Azure integration runtime
+Self-hosted integration runtime
+Azure-SQL Server Integration Services (SSIS) integration runtime
+
+
+Validation Activity:
+--------------------
+Is used to ensure the pipeline only continue execution once it has validated.Timeout->Waiting for file at this time duration if file not recevide then validation activity will timeout.
+Sleep->if you put 10 then it will check every 10 seconds for the file.
