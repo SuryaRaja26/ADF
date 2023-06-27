@@ -7,5 +7,21 @@ Azure-SQL Server Integration Services (SSIS) integration runtime
 
 Validation Activity:
 --------------------
-Is used to ensure the pipeline only continue execution once it has validated.Timeout->Waiting for file at this time duration if file not recevide then validation activity will timeout.
-Sleep->if you put 10 then it will check every 10 seconds for the file.
+Is used to ensure the pipeline only continues execution once it has been validated.Timeout->Waiting for file at this time duration if the file not received then validation activity will timeout.
+Sleep->A delay in validation attempts.
+
+Metadata
+---------
+Used to retrieve the metadata about the file. The maximum size of returned metadata is 4MB.
+
+If condition:
+-------------
+It will execute the true activity when it satisfied the condition or else it will execute the failed activity. In case they didn't add the fail activity it will
+not the show the failure. 
+
+Delete:
+-------
+used to delete the files. Use the recursively option when you are using folders.
+
+
+
