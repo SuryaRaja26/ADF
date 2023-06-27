@@ -21,7 +21,24 @@ not the show the failure.
 
 Delete:
 -------
-used to delete the files. Use the recursively option when you are using folders.
+used to delete the files. Use the recursive option when you are using folders.
+
+Parameters:
+----------
+Are used to pass external values to the pipeline, datasets, and linked services. the value cannot be changed inside a pipeline
+
+Variables:
+---------
+used as internal variables set inside a pipeline these value can be changed inside the pipeline using set varia;be or append activity
+
+
+Mapping data flows:
+-------------------
+used to perform data transformation.Code free environment.
+
+
+
+
 
 
 
