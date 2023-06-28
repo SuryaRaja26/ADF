@@ -34,7 +34,14 @@ used as internal variables set inside a pipeline these value can be changed insi
 
 Mapping data flows:
 -------------------
-used to perform data transformation.Code free environment.
+used to perform data transformation.Code-free environment.
+  Schema drift:
+  -------------
+  whenever a new column is added to the dataset it will automatically add the column to the dataflow.
+Select transformation:
+----------------------
+used to delete columns and rename column names as well.
+Rule based mapping: used to change column names according to rules.
 
 
 
