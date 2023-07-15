@@ -26,6 +26,7 @@ used to delete the files. Use the recursive option when you are using folders.
 Parameters:
 ----------
 Are used to pass external values to the pipeline, datasets, and linked services. the value cannot be changed inside a pipeline
+used as select files at runntime by adding parameter in dataset then add parameter in pipeline.
 
 Variables:
 ---------
